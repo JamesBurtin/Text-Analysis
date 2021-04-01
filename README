@@ -1,3 +1,11 @@
 Text Analysis R script and process used for analysing semi-structured text data.
 Assumes the text is in a flat file format, and each document/piece of text is contained in a single cell.
-Two columns are required to include a uniquq document # in one column and the corresponding text in the second column.
+Two columns are required to include a unique document # in one column and the corresponding text in the second column.
+
+The analysis pipeline conducts the following:
+Imports and cleans text
+word frequency analysis
+word correlation analysis
+Sentiment analysis
+Unsupervised Topic Modelling using Latent Dirichlet Allocation LDA 
+
